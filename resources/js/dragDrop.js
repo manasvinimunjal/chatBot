@@ -46,12 +46,12 @@ setTimeout(function () {
     CONTAINER_TAG.setAttribute("style", "border: 1px solid #A9F5D0;border-radius:25px;background-color:#A9F5D0;padding:2px;float:left;clear:both;margin-top:10px;");
 }, 2000);
 
-var list = document.getElementById('demo');
-var list1 = document.getElementById('demo1');
-var list2 = document.getElementById('demo2');
-var list3 = document.getElementById('demo3');
-var list4 = document.getElementById('demo4');
-var list5 = document.getElementById('demo5');
+var list = document.getElementById('object3');
+var list1 = document.getElementById('object4');
+var list2 = document.getElementById('object5');
+var list3 = document.getElementById('object6');
+var list4 = document.getElementById('object7');
+var list5 = document.getElementById('object8');
 
 var counter = 0;
 
@@ -78,13 +78,13 @@ function changeText2() {
         entry.appendChild(document.createTextNode(userInput));
         list.appendChild(entry);
 
-        var CONTAINER_TAG = document.getElementById("demo");
+        var CONTAINER_TAG = document.getElementById("object3");
         CONTAINER_TAG.setAttribute("style", "border: 1px solid #FAEBD7;border-radius:25px;background-color:#FAEBD7;padding:2px;float:right;margin-top:40px;");
         setTimeout(function () {
             var img = document.createElement("img");
             img.src = "https://img.clipartfest.com/e70880539beb5127f11d05818ab14b0d_tick-clip-art-free-clip-art-tick_285-297.png";
             img.setAttribute("style", "width:14px;height:12px;margin-left:3px;");
-            var src = document.getElementById("demo");
+            var src = document.getElementById("object3");
             src.appendChild(img);
         }, 1000);
 
@@ -111,14 +111,14 @@ function changeText2() {
         var entry1 = document.createElement('span');
         entry1.appendChild(document.createTextNode(userInput1));
         list1.appendChild(entry1);
-        var CONTAINER_TAG = document.getElementById("demo1");
+        var CONTAINER_TAG = document.getElementById("object4");
         CONTAINER_TAG.setAttribute("style", "border: 1px solid #FAEBD7;border-radius:25px;background-color:#FAEBD7;padding:2px;float:right;margin-top:35px;px;margin-left:20px;");
 
         setTimeout(function () {
             var img = document.createElement("img");
             img.src = "https://img.clipartfest.com/e70880539beb5127f11d05818ab14b0d_tick-clip-art-free-clip-art-tick_285-297.png";
             img.setAttribute("style", "width:14px;height:12px;margin-left:3px;");
-            var src = document.getElementById("demo1");
+            var src = document.getElementById("object4");
             src.appendChild(img);
         }, 1000);
 
@@ -134,13 +134,13 @@ function changeText2() {
         var entry2 = document.createElement('span');
         entry2.appendChild(document.createTextNode(userInput2));
         list2.appendChild(entry2);
-        var CONTAINER_TAG = document.getElementById("demo2");
+        var CONTAINER_TAG = document.getElementById("object5");
         CONTAINER_TAG.setAttribute("style", "border: 1px solid #FAEBD7;border-radius:25px;background-color:#FAEBD7;padding:2px;float:right;margin-top:15px;");
         setTimeout(function () {
             var img = document.createElement("img");
             img.src = "https://img.clipartfest.com/e70880539beb5127f11d05818ab14b0d_tick-clip-art-free-clip-art-tick_285-297.png";
             img.setAttribute("style", "width:14px;height:12px;margin-left:3px;");
-            var src = document.getElementById("demo2");
+            var src = document.getElementById("object5");
             src.appendChild(img);
         }, 1000);
 
@@ -168,13 +168,13 @@ function changeText2() {
         var entry3 = document.createElement('span');
         entry3.appendChild(document.createTextNode(userInput3));
         list3.appendChild(entry3);
-        var CONTAINER_TAG = document.getElementById("demo3");
+        var CONTAINER_TAG = document.getElementById("object6");
         CONTAINER_TAG.setAttribute("style", "border: 1px solid #FAEBD7;border-radius:25px;background-color:#FAEBD7;padding:2px;float:right;margin-top:35px;");
         setTimeout(function () {
             var img = document.createElement("img");
             img.src = "https://img.clipartfest.com/e70880539beb5127f11d05818ab14b0d_tick-clip-art-free-clip-art-tick_285-297.png";
             img.setAttribute("style", "width:14px;height:12px;margin-left:3px;");
-            var src = document.getElementById("demo3");
+            var src = document.getElementById("object6");
             src.appendChild(img);
         }, 1000);
 
@@ -201,13 +201,13 @@ function changeText2() {
         var entry4 = document.createElement('span');
         entry4.appendChild(document.createTextNode(userInput4));
         list4.appendChild(entry4);
-        var CONTAINER_TAG = document.getElementById("demo4");
+        var CONTAINER_TAG = document.getElementById("object7");
         CONTAINER_TAG.setAttribute("style", "border: 1px solid #FAEBD7;border-radius:25px;background-color:#FAEBD7;padding:2px;float:right;margin-top:20px;");
         setTimeout(function () {
             var img = document.createElement("img");
             img.src = "https://img.clipartfest.com/e70880539beb5127f11d05818ab14b0d_tick-clip-art-free-clip-art-tick_285-297.png";
             img.setAttribute("style", "width:14px;height:12px;margin-left:3px;");
-            var src = document.getElementById("demo4");
+            var src = document.getElementById("object7");
             src.appendChild(img);
         }, 1000);
 
@@ -226,13 +226,13 @@ function changeText2() {
         var entry5 = document.createElement('span');
         entry5.appendChild(document.createTextNode(userInput5));
         list5.appendChild(entry5);
-        var CONTAINER_TAG = document.getElementById("demo5");
+        var CONTAINER_TAG = document.getElementById("object8");
         CONTAINER_TAG.setAttribute("style", "border: 1px solid #FAEBD7;border-radius:25px;background-color:#FAEBD7;padding:2px;float:right;margin-top:20px;");
         setTimeout(function () {
             var img = document.createElement("img");
             img.src = "https://img.clipartfest.com/e70880539beb5127f11d05818ab14b0d_tick-clip-art-free-clip-art-tick_285-297.png";
             img.setAttribute("style", "width:14px;height:12px;margin-left:3px;");
-            var src = document.getElementById("demo5");
+            var src = document.getElementById("object8");
             src.appendChild(img);
         }, 1000);
 
