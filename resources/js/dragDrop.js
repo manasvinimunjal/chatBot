@@ -15,6 +15,8 @@ function dragDrop(event) {
     _(elementId).removeAttribute("draggable");
     _(elementId).style.cursor = "default";
     droppedIn = true;
+     _(elementId).setAttribute("style","margin:0px");
+
 }
 
 droppedIn = false;
