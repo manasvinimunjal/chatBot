@@ -1,0 +1,167 @@
+#user{
+    position: absolute;
+    bottom: 0;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+ul{
+    list-style-type: none;
+    
+}
+#myList{
+    display: inline-block;
+  }
+
+.btn-custom{
+  background-color: #7DF840;
+  color:white;
+  border-color:#7DF840;
+}
+.btn-custom:hover{
+  color:white;
+}
+.box1{
+    background-image: url("frame1.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 25px;
+    text-align: right;
+    display: block;
+    height:100vh;
+    }
+.box2{
+     background-image: url("frame2.jpg");
+    background-repeat:no-repeat;
+    background-size:100vh 100vh;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 25px;
+    text-align: right;
+    display: block;
+    height:100vh;
+    }
+
+.tree {
+  padding: 20px;
+  color: #212121;
+  text-align: center;
+}
+.tree-widget {
+  position: relative;
+  padding: 20px 0;
+  overflow-x: auto;
+}
+.tree-structure {
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.tree-node {
+   
+  display: inline-block;
+  margin: 0 4px;
+  padding: 0 8px;
+  border-radius: 12px;
+  background:#A1FC18;
+  font-size: 12px;
+  line-height: 24px;
+  color:black;
+  transition: all 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.tree-node.active {
+  background: gold; /* #00aa88 */
+  
+}
+.tree-branch {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+.tree-branch:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  height: 35px;
+  margin-left: -1px;
+  border-left: 2px solid #212121;
+  
+}
+.tree-branch:after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  display: block;
+  margin: -5px 0 0 -4px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-top: 5px solid black;
+}
+
+
+
+.tree-item {
+  position: relative;
+  display: inline-block;
+  padding: 40px 0 0;
+  vertical-align: top;
+}
+.tree-item:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  display: block;
+  height: 25px;
+  margin-left: -1px;
+  border-left: 2px solid #212121;
+}
+.tree-item:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  display: block;
+  border-top: 2px solid #212121;
+}
+.tree-item:first-child:after {
+  left: 50%;
+  width: 50%;
+}
+.tree-item:not(:first-child):not(:last-child):after {
+  left: 0;
+  width: 100%;
+}
+.tree-item:last-child:after {
+  right: 50%;
+  width: 50%;
+}
+.tree-item:first-child:last-child:after {
+  display: none;
+}
+.tree-description {
+  margin: 30px 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+.tree-mark {
+  position: absolute;
+  border: 2px dashed #212121; /* #00aa88 */
+  transition: all 0.2s ease-in-out 0s;
+}
+
+
+
+
+
+

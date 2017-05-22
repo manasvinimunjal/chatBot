@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+  <div class="row">
+    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="box1 ">
+
+
+        <div id="object1" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="hi"></span></div><br>
+        <div id="object2" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="hi1"></span></div><br>
+        <div id="object3" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="demo"></span></div><br>
+        <div id="myList" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+        <div id="object5" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="demo1"></span></div><br>
+        <div id="myList1" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+        <div id="object7" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="demo2"></span></div><br>
+        <div id="myList2" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+        <div id="object9" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="demo3"></span></div><br>
+        <div id="myList3" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+        <div id="object11" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="demo4"></span></div><br>
+        <div id="myList4" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+        <div id="myList5" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+        <div id="object15" class="objects" draggable="true" ondragstart="dragStart(event)"><span id="demo5"></span></div><br>
+        <div id="myList6" class="objects" draggable="true" ondragstart="dragStart(event)"></div><br>
+
+        <div class="row" id="user">
+          <div class="input-group col-xs-12 " id="dummy"><input class="form-control" name="textField" type="text" id="userInput">
+            <span class="input-group-btn"><i class="glyphicon glyhicon-ok"></i>
+    <button type='submit' class="btn btn-custom col-xs-offset-3" onclick='changeText2() ' value='Submit'/>
+        <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>
+    </button>
+   </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" ondragover="return false">
+      <div class="box2">
+        <div id="tree" class="tree">
+
+          <div class="tree-widget">
+            <div class="tree-structure">
+              <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+              <ul class="tree-branch">
+                <li class="tree-item">
+                  <div class="tree-node btn btn-md " ondrop="dragDrop(event)"></div>
+                  <ul class="tree-branch">
+                    <li class="tree-item">
+                      <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                      <ul class="tree-branch">
+                        <li class="tree-item">
+                          <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                          <ul class="tree-branch">
+                            <li class="tree-item">
+                              <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                              <ul class="tree-branch">
+                                <li class="tree-item">
+                                  <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                                  <ul class="tree-branch">
+                                    <li class="tree-item">
+                                      <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                                      <ul class="tree-branch">
+                                        <li class="tree-item">
+                                          <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                                        </li>
+                                      </ul>
+                                      <ul class="tree-branch">
+                                        <li class="tree-item">
+                                          <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                                        </li>
+                                        <li class="tree-item">
+                                          <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                                        </li>
+                                        <li class="tree-item">
+                                          <div class="tree-node btn btn-md" ondrop="dragDrop(event)"></div>
+                                        </li>
+                                      </ul>
+                                    </li>
+
+                                  </ul>
+                                </li>
+
+                              </ul>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="./resources/js/dragDrop.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</body>
+
+</html>
